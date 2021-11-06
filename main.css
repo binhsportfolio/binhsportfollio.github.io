@@ -1,0 +1,330 @@
+@charset "utf-8";
+/* Reset CSS */
+*{
+	margin: 0;
+	padding: 0;
+}
+section  {
+	background-image: url("background.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.Hello h1{
+	width: 51%;
+	font-size: 100px;
+	padding-top: 270px;
+	padding-bottom: 0px;
+	padding-left: 200px;
+	font-family: fontHello;
+	float: left;
+}
+.Aboutme h1{
+	font-size: 70px;
+	font-family: fontHello;
+	padding-top: 170px;	
+}
+.Aboutnoidung p{
+	font-size: 23px;
+}
+.Aboutnoidung h2{
+	font-size: 40px;
+	font-family: fontulli;
+}
+section .home ul li{
+	display: inline;
+	font-size: 25px;
+	text-decoration: underline;
+	padding-top: 100px;
+	padding-left: 60px;
+	padding-right: 60px;
+	font-family: fontmenu;
+}
+section .home ul li:hover
+{
+   text-decoration-color: #EFA00B;
+}
+.home{
+	padding-top: 30px;
+	padding-left: 300px;
+}
+section .home ul{
+	float: right;
+	width: 70%;
+}
+section .home h2{
+	display: inline;
+	font-size: 40px;
+}
+@font-face
+{
+	font-family: fontHello;
+	src: url("font/static/SansitaSwashed-Bold.ttf");
+}
+@font-face
+{
+	font-family: fontulli;
+	src: url("font/static/Signika-Regular.ttf");
+}
+@font-face{
+	font-family: fontmenu;
+	src: url("font/static/Signika-SemiBold.ttf");
+}
+main{
+    background-color: #25283D;
+}
+.tieude h1{
+	font-size: 70px;
+    font-family: fontHello;
+	padding-top: 90px;
+	padding-left: 50px;
+}
+.awnoidung p{
+	padding-left: 50px;
+	font-size: 23px;
+	text-align: center;
+}
+.tieude{
+	text-align: center;
+}
+
+.draw{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 300px 300px;
+	padding: 10px 200px;
+	grid-row-gap: 20px;
+}
+.draw1 {
+	background-image: url("images/245234668_1027194828030685_3127388266999181341_n.jpg");
+	border-radius: 30px;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	width: 450px;
+}
+.draw2 {
+	background-image: url("images/draw2.jpg");
+	border-radius: 30px;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+}
+.draw3{
+	background-image: url("images/draw4.jpg");
+	border-radius: 30px;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+}
+.draw4{
+	background-image: url("images/draw5.jpg");
+	border-radius: 30px;
+	background-size: cover;
+	width: 450px;
+	height: 300px;
+}
+.draw5{
+	background-image: url("images/draw4..jpg");
+	border-radius: 30px;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+}
+.draw6{
+	background-image: url("images/draw6.jpg");
+	border-radius: 30px;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+}
+.seemore{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+.seemorenut{
+  border: none;
+  color: #EFA00B;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.seemorenut{
+	background-color: #25283D; 
+    color: #EFA00B; 
+    border: 2px solid #EFA00B;
+	border-radius: 30px;
+}
+.seemorenut:hover {
+  background-color: #EFA00B;
+  color: white;
+}
+.custom{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 300px 300px;
+	padding: 10px 200px;
+	grid-row-gap: 20px;
+}
+.custom1 {
+	background-image: url("images/custom1.jpg");
+	border-radius: 30px;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+}
+.custom2 {
+	background-image: url("images/custom22.jpg");
+	border-radius: 30px;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+}
+.custom3 {
+	background-image: url("images/custom3 (2).jpg");
+	border-radius: 30px;
+	background-size: cover;
+	width: 450px;
+	height: 300px;
+}
+.custom4 {
+	background-image: url("images/custom4.jpg");
+	border-radius: 30px;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+}
+.custom5 {
+	background-image: url("images/custom5.jpg");
+	border-radius: 30px;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+}
+.custom6 {
+	background-image: url("images/custom6 (2).jpg");
+	border-radius: 30px;
+	background-size: cover;
+	width: 450px;
+	height: 300px;
+}
+
+.photo{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 300px 300px;
+	padding: 10px 200px;
+	grid-row-gap: 20px;
+}
+.photo1 {
+	background-image: url("images/photo1.jpg");
+	border-radius: 30px;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+}
+.photo2 {
+	background-image: url("images/photo2 (2).jpg");
+	border-radius: 30px;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+}
+.photo3 {
+	background-image: url("images/photo3.jpg");
+	border-radius: 30px;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+}
+.photo4 {
+	background-image: url("images/photo4.jpg");
+	border-radius: 30px;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+}
+.photo5 {
+	background-image: url("images/photo55 (2).jpg");
+	border-radius: 30px;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+}
+.photo6 {
+	background-image: url("images/photo6.jpg");
+	border-radius: 30px;
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+}
+.letstalk h1{
+	text-align: center;
+	font-size: 70px;
+	font-family: fontHello;
+	padding-top: 100px;	
+	padding-bottom: 50px;
+}
+#form{
+	text-align: center;
+	padding-top: 30px;
+}
+table{
+	text-align: left;
+	margin: 0 auto;
+	width: 40%;
+}
+table input, textarea{
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #EFA00B;
+}
+table tr td{
+	padding: 10px;
+}
+button{
+	background-color: #FFFFFFF; 
+    color: #EFA00B; 
+    border: 2px solid #EFA00B;
+	border-radius: 30px;
+	border: none;
+    color: #000000;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover {
+  background-color: #EFA00B;
+  color: white;
+}
+form{
+	background-color: #FFFFFF;
+}
+mainfoot{
+	background-color: #FFFFFF;
+}
+footer{
+	height: 170px;
+    background-color: #25283D;
+	background-size: cover;
+	color: #EFA00B;
+	text-align: center;
+	font-size: 24px;
+}
+footer i{
+	padding: 40px 30px;
+}
+a{
+	color: #EFA00B;
+}
